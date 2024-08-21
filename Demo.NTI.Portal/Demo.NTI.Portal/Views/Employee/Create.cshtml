@@ -1,0 +1,175 @@
+﻿
+@model EmployeeVM
+
+@inject IDepartmentService _departmentService
+@inject ICountryService _countryService
+
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Employees</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Employees</a></li>
+                        <li class="breadcrumb-item active">Employees Card</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <!-- Small boxes (Stat box) -->
+
+
+            <div class="row">
+
+
+                <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <input type="text" placeholder="employee Name" asp-for="Name" class="form-control" />
+                    @*<span asp-validation-for="Name" class="text-danger"></span>*@
+                    <br /><br />
+
+                    <input type="email" placeholder="employee Email" asp-for="Email" class="form-control" />
+                    @*<span asp-validation-for="Email" class="text-danger"></span>*@
+                    <br /><br />
+
+                    <input type="number" placeholder="employee Salary" asp-for="Salary" class="form-control" />
+                    @*<span asp-validation-for="Salary" class="text-danger"></span>*@
+                    <br /><br />
+
+                    <label asp-for="HireDate">hire date</label>
+                    <input type="date" class="form-control" asp-for="HireDate" />
+                    <br /><br />
+
+                    <select class="form-control" asp-for="DepartmentId">
+                        <option>-- select department</option>
+                        @foreach (var item in await _departmentService.GetDepartmentsAsync())
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
+                    </select>
+                    <br /><br />
+
+                    <select class="form-control" id="CountryList">
+                        <option>-- select country --</option>
+                        @foreach (var item in await _countryService.GetCountries())
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
+                    </select>
+                    <br /><br />
+
+
+                    <select class="form-control" asp-for="CityId" id="CityList">
+                        <option>-- select city</option>
+                    </select>
+                    <br /><br />
+
+                    <label>upload cv</label>
+                    @*<input type="file" class="form-control" asp-for="Cv" multiple accept=".pdf,.csv"  />*@
+                    <input type="file" class="form-control" asp-for="Cv" />
+                    <br /><br />
+
+
+                    <label>upload cv</label>
+                    <input type="file" class="form-control" asp-for="Image" />
+                    <br /><br />
+
+                    <center>
+                        <input type="submit" value="save employee" class="btn btn-primary" />
+                        <input type="reset" value="cancle" class="btn btn-warning" />
+                    </center>
+                </form>
+
+
+
+
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+
+@section JqueryValidation {
+    <script src="~/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="~/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+    <script>
+
+        $(function () {
+
+
+
+            $("#CountryList").change(function () {
+
+                var countryId = $("#CountryList option:selected").val();
+
+                $("#CityList").empty();
+                $("#CityList").append("<option value='0'>--select city--</option>");
+
+                $.ajax({
+
+                    type: "POST",
+                    //url: "/Employee/getCitiesByCountryId?cntryId=" + countryId +"",
+                    url: "/Employee/getCitiesByCountryId",
+                    data: { cntryId: countryId },
+                    success: function (res) {
+
+
+                        $.each(res, function (i,e) {
+
+
+                            $("#CityList").append("<option value='" + e.id +"'>"+e.name+"</option>");
+
+
+                        });
+
+
+                    }
+
+
+
+
+                });
+                
+
+            });
+
+
+
+
+
+
+
+
+        });
+
+
+
+    </script>
+
+
+}

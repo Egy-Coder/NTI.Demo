@@ -1,0 +1,59 @@
+﻿@model List<UserInRoleVM>
+
+
+@{
+    ViewData["Title"] = "Add Or Remove Users";
+}
+
+<div class="content-wrapper">
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Roles Management</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Manage Role</a></li>
+                        <li class="breadcrumb-item active">Add Or Remove Users</li>
+
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+
+    <section class="content">
+        <div class="container-fluid">
+
+
+            <form method="post" class="form-group">
+
+                <div class="card-header">
+                    <h2>Add Or Remove User In Role</h2>
+                </div>
+
+
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <input asp-for="@Model[i].IsSelected" type="checkbox" class="filled-in">
+                    <label asp-for="@Model[i].IsSelected">@Model[i].UserName</label>
+
+                    <input type="hidden" asp-for="@Model[i].UserId" />
+                    <input type="hidden" asp-for="@Model[i].UserName" />
+                    <br />
+                }
+
+                <div class="card-footer">
+                    <input type="submit" value="Assign" class="btn btn-primary" />
+                </div>
+
+            </form>
+
+            <a asp-controller="RoleManagement" asp-action="Index">Cancle</a>
+
+        </div>
+    </section>
+
+</div>

@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.portal\\views\\chart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|solutionrelative:demo.nti.portal\\views\\chart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.portal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|solutionrelative:demo.nti.portal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.bll\\service\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|solutionrelative:demo.nti.bll\\service\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.bll\\service\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|solutionrelative:demo.nti.bll\\service\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.portal\\views\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|solutionrelative:demo.nti.portal\\views\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|solutionrelative:demo.nti.portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.portal\\controllers\\chartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA9D6F4C-E241-40DD-A869-1D4BDF877631}|Demo.NTI.Portal\\Demo.NTI.Portal.csproj|solutionrelative:demo.nti.portal\\controllers\\chartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.bll\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|solutionrelative:demo.nti.bll\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.bll\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|solutionrelative:demo.nti.bll\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|d:\\rounds\\nti\\day_ 4\\demo.nti.portal\\demo.nti.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052F9E2B-9937-449D-B46C-76436DF02F3C}|Demo.NTI.BLL\\Demo.NTI.BLL.csproj|solutionrelative:demo.nti.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\Chart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo.NTI.Portal\\Views\\Chart\\Index.cshtml",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\Chart\\Index.cshtml",
+              "RelativeToolTip": "Demo.NTI.Portal\\Views\\Chart\\Index.cshtml",
+              "ViewState": "AQIAAHkBAAAAAAAAAAAAAIsBAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T12:54:21.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Demo.NTI.Portal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Demo.NTI.Portal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAGYBAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T12:52:27.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChartController.cs",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Controllers\\ChartController.cs",
+              "RelativeDocumentMoniker": "Demo.NTI.Portal\\Controllers\\ChartController.cs",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Controllers\\ChartController.cs",
+              "RelativeToolTip": "Demo.NTI.Portal\\Controllers\\ChartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:48:07.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\View.cshtml",
+              "RelativeDocumentMoniker": "Demo.NTI.Portal\\Views\\View.cshtml",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\View.cshtml",
+              "RelativeToolTip": "Demo.NTI.Portal\\Views\\View.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJUEAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T12:47:01.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CountryService.cs",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\CountryService.cs",
+              "RelativeDocumentMoniker": "Demo.NTI.BLL\\Service\\CountryService.cs",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\CountryService.cs",
+              "RelativeToolTip": "Demo.NTI.BLL\\Service\\CountryService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:31:33.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CityService.cs",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\CityService.cs",
+              "RelativeDocumentMoniker": "Demo.NTI.BLL\\Service\\CityService.cs",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\CityService.cs",
+              "RelativeToolTip": "Demo.NTI.BLL\\Service\\CityService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:31:32.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo.NTI.Portal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.Portal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Demo.NTI.Portal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T12:30:50.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "Demo.NTI.BLL\\Service\\DepartmentService.cs",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\DepartmentService.cs",
+              "RelativeToolTip": "Demo.NTI.BLL\\Service\\DepartmentService.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:30:13.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Demo.NTI.BLL\\Service\\EmployeeService.cs",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "Demo.NTI.BLL\\Service\\EmployeeService.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAIwGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:30:07.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Demo.NTI.BLL\\Repository\\GenericRepository.cs",
+              "ToolTip": "D:\\Rounds\\NTI\\Day_ 4\\Demo.NTI.Portal\\Demo.NTI.BLL\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Demo.NTI.BLL\\Repository\\GenericRepository.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAA/wIEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:29:54.391Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

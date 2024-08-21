@@ -1,0 +1,45 @@
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.deps.json
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.pdb
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.DAL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.DAL.pdb
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.csproj.AssemblyReference.cache
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.AssemblyInfoInputs.cache
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.AssemblyInfo.cs
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.csproj.CoreCompileInputs.cache
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.74C1C930.Up2Date
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\refint\Demo.NTI.BLL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.pdb
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\ref\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.deps.json
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.pdb
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.DAL.pdb
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.csproj.AssemblyReference.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.AssemblyInfoInputs.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.AssemblyInfo.cs
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.csproj.CoreCompileInputs.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.74C1C930.Up2Date
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\refint\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.pdb
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\ref\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.deps.json
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.BLL.pdb
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\bin\Debug\net8.0\Demo.NTI.DAL.pdb
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.csproj.AssemblyReference.cache
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.AssemblyInfoInputs.cache
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.AssemblyInfo.cs
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.csproj.CoreCompileInputs.cache
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.74C1C930.Up2Date
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\refint\Demo.NTI.BLL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\Demo.NTI.BLL.pdb
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.BLL\obj\Debug\net8.0\ref\Demo.NTI.BLL.dll

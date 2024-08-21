@@ -1,0 +1,42 @@
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.deps.json
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.pdb
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.AssemblyInfoInputs.cache
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.AssemblyInfo.cs
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.csproj.CoreCompileInputs.cache
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\refint\Demo.NTI.DAL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.pdb
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\ref\Demo.NTI.DAL.dll
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.runtimeconfig.json
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.csproj.AssemblyReference.cache
+C:\Users\elgen\source\repos\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.genruntimeconfig.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.deps.json
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.runtimeconfig.json
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.pdb
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.csproj.AssemblyReference.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.AssemblyInfoInputs.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.AssemblyInfo.cs
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.csproj.CoreCompileInputs.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\refint\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.pdb
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.genruntimeconfig.cache
+D:\Rounds\NTI\Day_ 3\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\ref\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.deps.json
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.runtimeconfig.json
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\bin\Debug\net8.0\Demo.NTI.DAL.pdb
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.csproj.AssemblyReference.cache
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.AssemblyInfoInputs.cache
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.AssemblyInfo.cs
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.csproj.CoreCompileInputs.cache
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\refint\Demo.NTI.DAL.dll
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.pdb
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\Demo.NTI.DAL.genruntimeconfig.cache
+D:\Rounds\NTI\Day_ 4\Demo.NTI.Portal\Demo.NTI.DAL\obj\Debug\net8.0\ref\Demo.NTI.DAL.dll

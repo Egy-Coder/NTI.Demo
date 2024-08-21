@@ -1,0 +1,62 @@
+﻿@model ApplicationRole
+
+
+@{
+    ViewData["Title"] = "Roles";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Roles</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Roles</li>
+
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+
+                <form asp-controller="RoleManagement" asp-action="Create" method="post" class="form-group">
+
+
+                    <div asp-validation-summary="All" class="text-danger" ></div>
+
+                    <label asp-for="Name">Role Name</label>
+                    <input type="text" asp-for="Name" class="form-control" />
+                    <br />
+
+                    <center>
+                        <input type="submit" value="save" class="btn btn-primary" />
+                        <input type="reset" value="cancle" class="btn btn-primary" />
+                    </center>
+
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- /.content -->
+</div>
+
+
+
+
+@section JqueryValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

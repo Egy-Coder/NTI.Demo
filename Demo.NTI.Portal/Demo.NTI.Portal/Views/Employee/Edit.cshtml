@@ -1,0 +1,84 @@
+﻿@model EmployeeVM
+@inject IDepartmentService departmentService
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Employees</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Employees</a></li>
+                        <li class="breadcrumb-item active">Employees Card</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <!-- Small boxes (Stat box) -->
+
+
+            <div class="row">
+
+
+                <form asp-action="Edit" method="post">
+
+
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <input type="text" placeholder="employee Name" asp-for="Name" class="form-control" />
+                    <br /><br />
+
+                    <input type="email" placeholder="employee Email" asp-for="Email" class="form-control" />
+                    <br /><br />
+
+                    <input type="number" placeholder="employee Salary" asp-for="Salary" class="form-control" />
+                    <br /><br />
+
+                    <label asp-for="HireDate">hire date</label>
+                    <input type="date" class="form-control" asp-for="HireDate" />
+                    <br /><br />
+
+                    <select class="form-control" asp-for="DepartmentId" asp-items="(SelectList)ViewBag.DepartmentList"></select>
+                    <br /><br />
+
+
+                    @*<select>
+                        <option value="@Model.DepartmentId">@Model.DepartmentName</option>
+                    </select>*@
+
+                    <center>
+                        <input type="submit" value="save employee" class="btn btn-primary" />
+                        <input type="reset" value="cancle" class="btn btn-warning" />
+                    </center>
+                </form>
+
+
+
+
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+
+@section JqueryValidation {
+    <script src="~/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="~/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

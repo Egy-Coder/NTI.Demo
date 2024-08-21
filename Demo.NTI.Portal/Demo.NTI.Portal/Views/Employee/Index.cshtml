@@ -1,0 +1,195 @@
+﻿
+@model IEnumerable<EmployeeVM>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" rel="stylesheet" />
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Employees</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Employees</a></li>
+                        <li class="breadcrumb-item active">Employees Card</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <!-- Small boxes (Stat box) -->
+
+
+            @*<div class="row">
+                <a asp-controller="Employee" asp-action="Create" class="btn btn-primary">Create New Employee</a>
+            </div>*@
+
+            <div class="row">
+
+
+            <table id="employeeTable" class="table table-hover table-striped table-bordered text-center text-bold">
+            <thead class="thead-light">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Salary</th>
+                    <th>Hire Date</th>
+                    <th>Actions</th>
+                </tr>
+               </thead>
+            </table>
+
+
+
+
+                @*<table class="table table-hover table-striped table-bordered text-center text-bold">
+            <thead class="thead-light">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Hire Date</th>
+                    <th>Department</th>
+                    <th>CV</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
+                        <td>@item.HireDate.Value.ToShortDateString()</td>
+                        <td>@item.DepartmentName</td>
+                        <td>
+                            <a href="~/Docs/Cvs/@item.CvName">Dowmload Cv</a>
+                        </td>
+                        <td>
+                            <img src="~/Docs/Imgs/@item.ImageName" class="rounded-circle" width="50" height="50" />
+                        </td>
+                        <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    Actions
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-controller="Employee" asp-action="Edit" asp-route-id="@item.Id">Update</a>
+                                    <a class="dropdown-item" asp-controller="Employee" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                    <a class="dropdown-item" asp-controller="Employee" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>*@
+
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#employeeTable').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "@Url.Action("LoadData", "Employee")",
+                    "type": "POST",
+                    "data": { }
+                },
+                "lengthMenu":[10,25,50,100,150],
+                "columns": [
+                    { "data": "id", "name": "Id" },
+                    { "data": "name", "name": "Name" },
+                    { "data": "email", "name": "Email" },
+                    { "data": "salary", "name": "Salary" },
+                    {
+                        "data": "hireDate", "name": "HireDate", "render": function (data) {
+                            var hireDate = data.split('T')[0];
+                            return hireDate;
+                        }
+                    },
+                    {
+
+
+                        "data": "id", "render": function (data) {
+
+                            return '<a href="/Employee/Details/' + data + '" class="btn btn-info">Details</a> ' +
+                                   '<a href="/Employee/Edit/' + data + '" class="btn btn-warning">Edit</a> ' +
+                                   '<a href="/Employee/Delete/' + data + '" class="btn btn-danger">Delete</a>';
+                        },
+                        "orderable": false
+                    }
+                ],
+                "dom": 'Blfrtip',
+                "buttons": [
+                    {
+                        extend: 'copy',
+                        exportOptions: {
+                            columns: [0, 1, 2, 3, 4]
+                        }
+                    },
+                    {
+                        extend: 'print',
+                        exportOptions: {
+                            columns: [0, 1, 2, 3, 4]
+                        }
+                    },
+                    {
+                        extend: 'csvHtml5',
+                        exportOptions: {
+                            columns: [0, 1, 2, 3, 4]
+                        }
+                    },
+                    {
+                        extend: 'pdfHtml5',
+                        title: 'Employee Data Report',
+                        customize: function (doc) {
+                            doc.content[1].table.widths = ['*', '*', '*', '*', '*'];
+                            doc.content[1].table.alignment = 'center'; // Center the table
+                            doc.styles.tableBodyEven.alignment = 'center';
+                            doc.styles.tableBodyOdd.alignment = 'center';
+                        },
+                        exportOptions: {
+                            columns: [0, 1, 2, 3, 4]
+                        }
+                    },
+                    'colvis'
+                ]
+            });
+        });
+    </script>
+}

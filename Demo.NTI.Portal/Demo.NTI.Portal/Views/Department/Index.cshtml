@@ -1,0 +1,193 @@
+﻿
+@model IEnumerable<DepartmentVM>
+
+@inject SignInManager<ApplicationUser> signInManager
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Departments</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Departments</a></li>
+                        <li class="breadcrumb-item active">Department Card</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <!-- Small boxes (Stat box) -->
+
+            @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+            {
+                <div class="row">
+                    <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#createModal">
+                        Create Product
+                    </button>
+                </div>
+            }
+
+
+            <div class="row">
+
+                <table class="table table-hover table-striped table-bordered text-center text-bold">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Name</th>
+                            <th>Code</th>
+                            @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                            {
+                                <th>Actions</th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Code</td>
+                                @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                                {
+                                    <td>
+                                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#editModal-@item.Id">
+                                            Edit
+                                        </button>
+                                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal-@item.Id">
+                                            Delete
+                                        </button>
+                                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#detailsModal-@item.Id">
+                                            Details
+                                        </button>
+                                    </td>
+                                }
+
+                            </tr>
+
+
+                            <!-- Edit Modal -->
+                            <div class="modal fade" id="editModal-@item.Id" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="editModalLabel">Edit Department</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form asp-action="Update" method="post">
+                                                <input type="hidden" name="Id" value="@item.Id" />
+                                                <div class="mb-3">
+                                                    <label for="Name" class="form-label">Name</label>
+                                                    <input type="text" class="form-control" name="Name" value="@item.Name" required />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="Code" class="form-label">Code</label>
+                                                    <input type="text" class="form-control" name="Code" value="@item.Code" required />
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Save changes</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Details Modal -->
+                            <div class="modal fade" id="detailsModal-@item.Id" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="editModalLabel">Details for @item.Name</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <input type="hidden" name="Id" value="@item.Id" />
+                                                <div class="mb-3">
+                                                    <label for="Name" class="form-label">Name</label>
+                                                    <input type="text" class="form-control" name="Name" value="@item.Name" readonly />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="Code" class="form-label">Code</label>
+                                                    <input type="text" class="form-control" name="Code" value="@item.Code" readonly />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Delete Modal -->
+                            <div class="modal fade" id="deleteModal-@item.Id" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="deleteModalLabel">Delete Department</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Are you sure you want to delete <strong>@item.Name</strong>?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <form asp-action="Delete" method="post">
+                                                <input type="hidden" name="Id" value="@item.Id" />
+                                                <button type="submit" class="btn btn-danger">Delete</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+
+
+
+    <!-- Create Modal -->
+    <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="createModalLabel">Create Department</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form asp-action="Create" method="post">
+                        <div class="mb-3">
+                            <label for="Name" class="form-label">Name</label>
+                            <input type="text" class="form-control" name="Name" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="Code" class="form-label">Code</label>
+                            <input type="text" class="form-control" name="Code" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
